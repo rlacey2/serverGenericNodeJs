@@ -1,0 +1,27 @@
+.app{
+background: #fff;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+font-size: 18px;
+margin: 0 0 8px;
+padding: 20px 0;
+}
+.main {
+margin: 40px 0;
+}
+
+/* prevent header covering body */
+body { 
+    padding-top: 65px; 
+}
+
+html {
+ overflow-y: scroll; /* prevents a scrolling jump */
+}
+
+.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>li:hover {
+    border-radius: 14px;
+    background-color: #ff0;
+    color: green;
+}
+
+

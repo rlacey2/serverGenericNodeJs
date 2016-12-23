@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Upload</title>
+  <link href="/stylesheets/bootstrap.css" rel="stylesheet">
+  <style>
+    .hero-unit {
+      margin-top: 60px;
+    }
+  </style>
+  <script src="/javascripts/bootstrap.min.js"></script>
+</head>
+<meta charset="utf-8">
+<body>
+  <div class="container">
+ 
+    <div>
+      <table class="table">
+        {{#posts}}
+          <tr><td>{{text}}</td></tr>
+        {{/posts}}
+      </table>
+    </div>
+  </div>
+</body>
+</html>
